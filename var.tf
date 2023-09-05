@@ -5,3 +5,7 @@ variable "allow_cidr" {}
 
 variable "component" {}
 variable "app_port" {}
+variable "max_size" {}
+variable "min_size" {}
+variable "desired_capacity" {}
+variable "instance_type" {}
